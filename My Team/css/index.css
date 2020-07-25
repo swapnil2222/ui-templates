@@ -1,0 +1,42 @@
+body {
+  background-color: #fafafa;
+  /* overflow: hidden; */
+}
+::-webkit-scrollbar {
+  display: none;
+}
+@font-face {
+  font-family: 'PT Serif';
+  src: url('../fonts/pt-serif.regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/poppins.medium.ttf') format('truetype');
+}
+.sub-title,
+.role{
+  font-family: 'Poppins', Fallback, sans-serif;
+}
+.title .heading {
+  font-family: 'PT Serif', Fallback, sans-serif;
+}
+.container {
+  margin-top: 5rem;
+}
+.team .row {
+  justify-content: space-evenly;
+}
+.container .row {
+  justify-content: space-evenly;
+}
+.role {
+  writing-mode: tb-rl;
+}
+.footer {
+  display: flex;
+  margin-top: 5em;
+  justify-content: center;
+}
+.footer .text {
+  font-family: monospace;
+}
